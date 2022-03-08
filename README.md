@@ -216,10 +216,10 @@ next_version = version.next
 
 ```
 
+### New request
+/api/encryptables/id/log
 
-## What we need to discuss
+### New controller
 
+### Pagination
 
-If the user wants to see the password of an account in the account view, then he must click the password field. This is happening only in the frontend (card-show.hbs Line 43). If the user for example opens a specific account, we can detect this in the backend. But currently, we can't detect if he clicks on "Shows password". Because of that, we need to find a solution.
-
-Maybe, we can add a new http call to the backend, so that we can write in the access log, if the user just watched the account or also the password.
