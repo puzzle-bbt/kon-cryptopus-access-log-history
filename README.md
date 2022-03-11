@@ -216,6 +216,8 @@ next_version = version.next
 
 ```
 
+With ``` version = widget.versions[-2] ``` we get the second last version. If we count up the number, we can get every version. Useful would be a for loop with the length from ``` versions.length ```. 
+
 Paper trail has a function to register, who did an update of a value. This is done with the versions.whodunnit, but in my test, this variable was always nil. Maybe we need to find first a solution for this. 
 
 ### New request
