@@ -226,11 +226,10 @@ To get the data for the log, we need a new request. This request will be called,
 ### New controller
 We need a new controller, we would name it "log_controller". This controller is called, when the request [/api/encryptables/id/log](#new-request) is called. The log_controller prepares all the data for the log (user, date&time,...). How we can get these data is described above, we use [Papertrail](#technology). Then, we would return the data, maybe in json format. The returning is similar to the returning from an encryptable (see encryptables_controller.rb). 
 
-#### Inforamtion for deluxe, epic and ultra editions: 
+#### Information for deluxe, epic and ultra editions: 
 In this 3 versions, we have the old and the value from the password. We don't want to display the passwords directly. For this "problem", we can use a similar way as we use it in the encryptables view. There, we display the password only if the user clicks on the text "show password". But we send the password together with the username from the backend to the frontend. For the logs, we would send all attributes to the frontend too and there, we would then hide the 2 values from the password.
 
 ### Pagination
-When you have shared a password with multiple persons, then the log page can be fast full with entries. If there are for example 200 entries, then the page needs a time to be loaded. To reduce the loading time, we should use pagination. This means, that we load maybe the first 15 logs and if the user scrolls down, we load the next 15 entries. With this method we can save more time. 
+When you have shared a password with multiple persons, then the log page can quickly become full of entries. If there are for example 200 entries, then the page needs a time to be loaded. To reduce the loading time, we should use pagination. This means, that we load maybe the first 15 logs and if the user scrolls down, we load the next 15 entries. With this method, we can save more time. 
 We can use a tool, called [will_paginate](https://github.com/mislav/will_paginate). This takes us the work for this problem.
 Another option would be to split the logs into groups, then we would load the first group, then when the user scrolls, we load the next part. We could change this in the url. [Example for this option](https://stevepolito.design/blog/rails-infinite-scrolling-blog-roll/). But the first method is better for us, because we want all logs in one table and not in multiple. 
-
