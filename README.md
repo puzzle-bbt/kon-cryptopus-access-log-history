@@ -221,8 +221,7 @@ With ``` version = widget.versions[-2] ``` we get the second last version. If we
 Paper trail has a function to register, who did an update of a value. This is done with the versions.whodunnit, but in my test, this variable was always nil. Maybe we need to find first a solution for this. 
 
 ### New request
-
-/api/encryptables/id/log
+To get the data for the log, we need a new request. This request will be called, when the user opens the new tab "Log". The new request url would be ``` /api/encryptables/id/log ```. In frontend/router.js, we would define a new route for the encryptables. This route would call the specific method in the [log_controller](#new-controller).
 
 ### New controller
 We need a new controller, maybe we can name it "log_controller". This controller is called, when the request /api/encryptables/id/log is called. This controller prepares all the data for the log (user, date&time,...). How we can get these data is described above. Then, we would return the data, maybe in json format.
