@@ -230,5 +230,5 @@ Inforamtion for deluxe, epic and ultra editions: In this 3 versions, we have the
 ### Pagination
 When you have shared a password with multiple persons, then the log page can be fast full with entries. If there are for example 200 entries, then the page needs a time to be loaded. To reduce the loading time, we should use pagination. This means, that we load maybe the first 20 logs and if the user scrolls down, we load the next 20 entries. With this method we can save more time. 
 We can use a tool, called [will_paginate](https://github.com/mislav/will_paginate). This takes us the work for this problem.
-Another option would be to split the logs into groups, then we would load the first group, then when the user scrolls, we load the next part. We could change this in the url. [Example](https://stevepolito.design/blog/rails-infinite-scrolling-blog-roll/). But the first method is better. 
+Another option would be to split the logs into groups, then we would load the first group, then when the user scrolls, we load the next part. We could change this in the url. [Example for this option](https://stevepolito.design/blog/rails-infinite-scrolling-blog-roll/). But the first method is better for us, because we want all logs in one table and not in multiple. 
 
