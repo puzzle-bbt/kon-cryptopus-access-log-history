@@ -30,8 +30,9 @@ There will be a new tab with the name "Log", when you open the detail view of an
 In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page, copied an attribute or edited something. Additionally, you can see, which date and time the access has been.
 
 
-![Minimum example](/images/MinimalExampleLogPage.png)
+![Minimum example](/images/MinimalLogPage1.png)
 
+![Minimum example hover](/images/MinimalLogPage2.png)
 
 
 #### Log page deluxe example:
@@ -43,7 +44,7 @@ To see new and old passwords, you have to click on the text. Names, emails or de
 If someone just watched the account or copied an attribute, then there will be no old and new value, like kmüller.
 
 
-![Deluxe example](/images/DeluxeExampleLogTab.png)
+![Deluxe example](/images/DeluxeLogPage.png)
 
 
 #### Log page Epic example:
