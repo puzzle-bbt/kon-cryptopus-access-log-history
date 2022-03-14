@@ -27,7 +27,7 @@ There will be a new tab with the name "Log", when you open the detail view of an
 
 #### Log page minimal example:
 
-In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page, copied an attribute or edited something. Additionally, you can see, which date and time the access has been.
+In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page, copied an attribute or edited something. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
 
 
 ![Minimum example](/images/MinimalLogPage1.png)
@@ -223,10 +223,10 @@ With ``` version = widget.versions[-2] ``` we get the second last version. If we
 Paper trail has a function to register, who did an update of a value. This is done with the versions.whodunnit, but in my test, this variable was always nil. Maybe we need to find first a solution for this. 
 
 ### New request
-To get the data for the log, we need a new request. This request will be called, when the user opens the new tab "Log". The new request url would be ``` /api/encryptables/id/logs ```. In frontend/router.js, we would define a new route for the encryptables. This route would call the specific method in the [log_controller](#new-controller).
+To get the data for the log, we need a new request. This request will be called, when the user opens the new tab "Log". The new request url would be ``` /api/encryptables/:id/logs ```. In frontend/router.js, we would define a new route for the encryptables. This route would call the specific method in the [logs_controller](#new-controller).
 
 ### New controller
-We need a new controller, we would name it "log_controller". This controller is called, when the request [/api/encryptables/id/log](#new-request) is called. The log_controller prepares all the data for the log (user, date&time,...). How we can get these data is described above, we use [Papertrail](#technology). Then, we would return the data, maybe in json format. The returning is similar to the returning from an encryptable (see encryptables_controller.rb). 
+We need a new controller, we would name it "logs_controller". This controller is called, when the request [/api/encryptables/:id/logs](#new-request) is called. The log_controller prepares all the data for the log (user, date&time,...). How we can get these data is described above, we use [Papertrail](#technology). Then, we would return the data, maybe in json format. The returning is similar to the returning from an encryptable (see encryptables_controller.rb). 
 
 #### Information for deluxe, epic and ultra editions: 
 In this 3 versions, we have the old and the value from the password. We don't want to display the passwords directly. For this "problem", we can use a similar way as we use it in the encryptables view. There, we display the password only if the user clicks on the text "show password". But we send the password together with the username from the backend to the frontend. For the logs, we would send all attributes to the frontend too and there, we would then hide the 2 values from the password.
