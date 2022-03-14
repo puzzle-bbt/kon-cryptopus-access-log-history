@@ -41,11 +41,13 @@ In the tab "Log", you can see who changed or watched the current account. You ca
 
 To see new and old passwords, you have to click on the text. Names, emails or descriptions are displayed directly.
 
-If someone just watched the account or copied an attribute, then there will be no old and new value, like kmüller.
+If someone just watched the account or copied an attribute, then there will be no old and new value. 
+The password is already encrypted with papertrail, so we don't have to do that ourselves.
 
 
 ![Deluxe example](/images/DeluxeLogPage.png)
 
+### Following mockups are not finished and have been paused
 
 #### Log page Epic example:
 
@@ -60,8 +62,6 @@ It would be useful, if we could filter the logs with the changed attribute. We w
 
 ![Epic example 1.3](/images/EpicExample3LogPage.png)
 
-
-### Following mockups are not finished and have been paused
 
 #### Log page ultra example:
 
