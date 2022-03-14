@@ -27,7 +27,7 @@ There will be a new tab with the name "Log", when you open the detail view of an
 
 #### Log page minimal example:
 
-In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page, copied an attribute or edited something. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
+In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
 
 
 ![Minimum example](/images/MinimalLogPage1.png)
