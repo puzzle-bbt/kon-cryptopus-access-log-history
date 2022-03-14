@@ -61,6 +61,7 @@ It would be useful, if we could filter the logs with the changed attribute. We w
 ![Epic example 1.3](/images/EpicExample3LogPage.png)
 
 
+### Following mockups are not finished and have been paused
 
 #### Log page ultra example:
 
