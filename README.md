@@ -1,25 +1,23 @@
-
-
 # Access and changelog conception
 
 
 ### Current situation
 
-Currently, you can save your passwords in cryptopus. You can add new accounts with name, username, password and description. You can also share your team with multiple passwords and folders with other members. Then everybody who's added to this team can CRUD the values.
+Currently, you can save your passwords in cryptopus. You can add new encryptables with name, username, password and description. You can also share your team with multiple passwords and folders with other members. Then everybody who's added to this team can CRUD the values.
 
 
 ### Motivation
 
-If multiple members work with one team in cryptopus, it can quickly become confusing. For example, someone updates a password for an account, but someone has to use the old password. Because of this, it would be useful to have an access- and changelog, where you can see, who updated what with which value.
+If multiple members work with one team in cryptopus, it can quickly become confusing. For example, someone updates a password for an encryptable, but someone has to use the old password. Because of this, it would be useful to have an access- and changelog, where you can see, who updated what with which value.
 
 
 
 ### How you can access the page
 
-There will be a new tab with the name "Log", when you open the detail view of an account. The account page would then look something like this:
+There will be a new tab with the name "Log", when you open the detail view of an encryptable. The encryptable page would then look something like this:
 
 
-![Account page with new tab](/images/EncryptablesPageWithNewTab.png)
+![Encryptable page with new tab](/images/EncryptablesPageWithNewTab.png)
 
 
 
@@ -27,7 +25,7 @@ There will be a new tab with the name "Log", when you open the detail view of an
 
 #### Log page minimal example:
 
-In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
+In the new tab "Log", you can see who accessed the encryptable. This would be, if someone opens the encryptable page. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
 
 
 ![Minimal example](/images/MinimalLogPage1.png)
@@ -37,11 +35,11 @@ In the new tab "Log", you can see who accessed the account. This would be, if so
 
 #### Log page deluxe example:
 
-In the tab "Log", you can see who changed or watched the current account. You can see, which date and time the changes were made. Further, you can see the old and also the new value of the changed attribute.
+In the tab "Log", you can see who changed or watched the current encryptable. You can see, which date and time the changes were made. Further, you can see the old and also the new value of the changed attribute.
 
 To see new and old passwords, you have to click on the text. Names, emails or descriptions are displayed directly.
 
-If someone just watched the account or copied an attribute, then there will be no old and new value. 
+If someone just watched the encryptable or copied an attribute, then there will be no old and new value. 
 The password is already encrypted with papertrail, so we don't have to do that ourselves.
 
 
@@ -110,23 +108,15 @@ In the second example, you can also see date, time and place from your changes o
 
 ## New dashboard
 
-Some people use mostly the same passwords, so it's an effort to search them in all the other passwords. Therefore, it would be useful, to have the recent used passwords directly on the dashboard. Design example:
+Some people use mostly the same credentials, so it's an effort to search them in all the other credentials. Therefore, it would be useful, to have the recent used credentials directly on the dashboard. Design example:
 
 
-#### Dashboard example 1
+#### Dashboard example
 
-We have a new column with maximal 5 recent passwords. These are direct links to the passwords and not to the teams. All the other teams are below.
-
-
-![Dashboard example 1](/images/DashboardExample1.png)
+We have a new column with maximal 5 recent credentials. These are direct links to the encryptables and not to the teams. All the other teams are below.
 
 
-#### Dashboard example 2
-
-This dashboard looks similar to the current dashboard. But here, we would not list the teams by name (A to Z), but with date of use. The recent used team would be at position 1. Here, the link would be to the team and not to a password.
-
-
-![Dashboard example 2](/images/DashboardExample2.png)
+![Dashboard example](/images/DashboardExample.png)
 
 
 ## Technology
