@@ -17,7 +17,7 @@ If multiple members work with one team in cryptopus, it can quickly become confu
 There will be a new tab with the name "Log", when you open the detail view of an encryptable. The encryptable page would then look something like this:
 
 
-![Encryptable page with new tab](/images/EncryptablesPageWithNewTab.png)
+![Encryptable page with new tab](/images/EncryptableNewTab.png)
 
 
 
@@ -28,9 +28,7 @@ There will be a new tab with the name "Log", when you open the detail view of an
 In the new tab "Log", you can see who accessed the encryptable. This would be, if someone opens the encryptable page. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
 
 
-![Minimal example](/images/MinimalLogPage1.png)
-
-![Minimal example hover](/images/MinimalLogPage2.png)
+![Minimal example](/images/MinimalLogPage.png)
 
 
 #### Log page deluxe example:
