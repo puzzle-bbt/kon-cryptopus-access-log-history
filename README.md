@@ -81,30 +81,30 @@ This is one of the most detailed version of the feature, which we could make. Th
 
 
 
-### My activity page
+### Personal activity page
 
-Would be useful, to see all your recent changes. These changes, you can see in the profile. There would be a new tab, called "Changes"
+Would be useful, to see all your recent changes. These changes, you can see in a new menu point Log. 
 
 
-![Profile info page](/images/ProfileInfo.png)
+![New menu](/images/NewMenuPoint.png)
 
 
 #### My activity minimal example:
 
 
-Simple, you can see the date, time and place from your recent changes or accesses. The path from the place is clickable, so you can easily move directly to the specific account.
+Simple, you can see the date, time and place from your recent changes or accesses. The path from the place is clickable, so you can easily move directly to the specific encryptable. More you can see if you just viewed the encryptable or also edited something.
 
 
-![Minmal changes page 1](/images/MinimalExampleProfileChanges.png)
+![Minmal personal activity page](/images/PersonalActivityPageMinimal.png)
 
 
 #### My activity deluxe example:
 
 
-In the second example, you can also see date, time and place from your changes or accesses. Here, you can click the place-link and move directly to the specific account too. More, you can see your changed or watched attribute and the old and new value of an attribute. To see changed passwords values, you need to click on the text "Show PW".
+In the second example, you can also see date, time and place from your changes or accesses. Here, you can click the place-link and move directly to the specific encryptable too. More, you can see the old and new value of an changed password. You can click on the stars and the two password values will be displayed.
 
 
-![Deluxe changes page](/images/DeluxeExampleProfileChanges.png)
+![Minmal personal activity page](/images/PersonalActivityPageDeluxe.png)
 
 
 
