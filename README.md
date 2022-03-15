@@ -30,9 +30,9 @@ There will be a new tab with the name "Log", when you open the detail view of an
 In the new tab "Log", you can see who accessed the account. This would be, if someone opens the account page. Additionally, you can see, which date and time the access has been. For better understanding, we use a hover effect, which describe the icons. 
 
 
-![Minimum example](/images/MinimalLogPage1.png)
+![Minimal example](/images/MinimalLogPage1.png)
 
-![Minimum example hover](/images/MinimalLogPage2.png)
+![Minimal example hover](/images/MinimalLogPage2.png)
 
 
 #### Log page deluxe example:
@@ -95,7 +95,7 @@ Would be useful, to see all your recent changes. These changes, you can see in a
 Simple, you can see the date, time and place from your recent changes or accesses. The path from the place is clickable, so you can easily move directly to the specific encryptable. More you can see if you just viewed the encryptable or also edited something.
 
 
-![Minmal personal activity page](/images/PersonalActivityPageMinimal.png)
+![Minimal personal activity page](/images/PersonalActivityPageMinimal.png)
 
 
 #### My activity deluxe example:
@@ -104,7 +104,7 @@ Simple, you can see the date, time and place from your recent changes or accesse
 In the second example, you can also see date, time and place from your changes or accesses. Here, you can click the place-link and move directly to the specific encryptable too. More, you can see the old and new value of an changed password. You can click on the stars and the two password values will be displayed.
 
 
-![Minmal personal activity page](/images/PersonalActivityPageDeluxe.png)
+![Minimal personal activity page](/images/PersonalActivityPageDeluxe.png)
 
 
 
